@@ -1,0 +1,35 @@
+$black-color: #000;
+$grey-color: #686868;
+$white-color: #fff;
+$pink-color: #ed165f;
+$header-color: #f5f5f5;
+
+%mulish-extrabold {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+%mulish-bold {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+%mulish-semibold {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+%mulish-regular {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+%roboto-regular {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}

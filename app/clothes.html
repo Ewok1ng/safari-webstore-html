@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Safari webstore</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;800&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <nav class="menu">
+            <ul class="menu__list menu__list--left">
+              <li class="menu__list-item menu__list-item--active">
+                <a class="menu__list-link" href="#">Home</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">Clothes</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">Shoes</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">Accessories</a>
+              </li>
+            </ul>
+            <a class="menu__logo-link" href="#">
+              <img class="menu__logo" src="./images/logo.svg" alt="logo" />
+            </a>
+
+            <ul class="menu__list menu__list--right">
+              <li class="search">
+                <input class="search__input" placeholder="Search..." type="text" />
+                <button class="search__btn" type="submit">
+                  <img src="./images/icons/search.svg" alt="search" />
+                </button>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">
+                  <img class="menu__list-img" src="./images/icons/user.svg" alt="user" />
+                </a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">
+                  <img class="menu__list-img" src="./images/icons/cart.svg" alt="cart" />
+                </a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">
+                  <img class="menu__list-img" src="./images/icons/favourite.svg" alt="favourite" />
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <!-- Header -->
+      </header>
+
+      <main class="main">
+        <section class="section section__clothes">
+          <div class="container">
+            <h1 class="clothes__title">Clothes</h1>
+            <div class="clothes__inner">
+              <aside class="sidebar">
+                <h2 class="sidebar__title">Category</h2>
+              </aside>
+              <div class="items items--triple">
+                <div class="dropdown">
+                  <span>Sort by:</span>
+                  <select class="dropdown__menu" name="sort">
+                    <option class="dropdown__menu-item" value="popular">Most popular</option>
+                    <option class="dropdown__menu-item" value="best-selling">Best Selling</option>
+                    <option class="dropdown__menu-item" value="hight-to-low">
+                      Price: Hight to Low
+                    </option>
+                    <option class="dropdown__menu-item" value="low-to-high">
+                      Price: Low to Hight
+                    </option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__inner">
+            <a class="footer__logo-link">
+              <img class="foter__logo" src="./images/logo.svg" alt="logo" />
+            </a>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a class="footer__list-link" href="#">About us</a>
+              </li>
+              <li class="footer__list-item">
+                <a class="footer__list-link" href="#">Contact</a>
+              </li>
+              <li class="footer__list-item">
+                <a class="footer__list-link" href="#">Terms & Conditions</a>
+              </li>
+            </ul>
+            <ul class="social__list">
+              <li class="social__list-item">
+                <a class="social__list-link" href="#">
+                  <img class="social__list-img" src="./images/icons/facebook.svg" alt="facebook" />
+                  Facebook
+                </a>
+              </li>
+              <li class="social__list-item">
+                <a class="social__list-link" href="#">
+                  <img class="social__list-img" src="./images/icons/twitter.svg" alt="twitter" />
+                  Twitter
+                </a>
+              </li>
+              <li class="social__list-item">
+                <a class="social__list-link" href="#">
+                  <img
+                    class="social__list-img"
+                    src="./images/icons/instagram.svg"
+                    alt="instagram"
+                  />
+                  Instagram
+                </a>
+              </li>
+            </ul>
+            <div class="footer__form-container">
+              <p class="footer__form-description">Subscribe to our newsletter</p>
+              <form clas="footer__form" action="">
+                <input class="footer__form-input" type="email" placeholder="Email Address" />
+                <button class="footer__form-btn">OK</button>
+              </form>
+            </div>
+            <ul class="footer__info">
+              <li class="footer__info-text footer__address">
+                497 Evergreen Rd. Roseville, CA 95673
+              </li>
+              <li class="footer__info-text footer__phone">
+                <a href="tel:+44345678903">+44 345 678 903</a>
+              </li>
+              <li class="footer__info-text footer__email">
+                <a href="mailto:yourmail@gmail.com">yourmail@gmail.com</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="js/main.min.js"></script>
+  </body>
+</html>
